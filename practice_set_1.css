@@ -1,0 +1,37 @@
+
+
+p{
+    color: red;
+    text-align: left;
+    text-decoration: line-through;
+    line-height: 20px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: underline overline #ff3028;
+}
+
+div{
+    text-align: right;
+}
+
+#h1{
+    font-size: 10px;
+
+}
+
+#h2{
+    font-size: 20px;
+}
+
+#h3{
+    font-size: 30px;
+}
+
+#h4{
+    font-size:40px;
+}
+
+
