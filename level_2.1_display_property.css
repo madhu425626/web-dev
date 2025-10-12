@@ -1,0 +1,44 @@
+.class{
+    display: inline;
+    background-color: red;
+}
+
+button{
+    display: block;
+    background-color: aqua;
+}
+
+span{
+    background-color: blue;
+}
+
+.class1{
+    height: 100px;
+    width: 100px;
+    display: inline-block ;
+    padding: 25px;
+    margin: 25px;
+}
+
+.class2{
+    height: 100px;
+    width: 100px;
+    display: none ; /*none* place not reserved*/
+    padding: 25px;
+    margin: 25px;
+}
+
+.class3{
+    height: 100px;
+    width: 100px;
+    display: inline-block ;
+    padding: 25px;
+    margin: 25px;
+    visibility: hidden; /*visibility place reserved but not seen*/
+}
+
+#rgba{
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.);
+    width: 100px;
+}
