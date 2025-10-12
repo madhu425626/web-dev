@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: solid 2px black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+
+}
+
+#box2{
+    position: relative; /* from it self to the*/
+    top: 20px;
+    left: 10px;
+}
+
+#box3{
+    position: absolute; /*position is related to the closest ancestor i.e from parent*/
+    top: 500px;
+    left: 20px;
+}
+
+#box4{
+    position: fixed; /*position relative from the browser-*/
+    right: 10px;      /*-is fixed even scrolling just like nav bar*/
+    top: 0;
+    left: 10px;
+}
+
+#box3{
+    position: sticky;
+    top: 0px; /*will be stickked from top- */
+    left: 20px; /*-after visible*/
+}
+
+
+
+
