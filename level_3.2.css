@@ -1,0 +1,39 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: solid 2px black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;/*nothing works in ststic*/
+   
+
+}
+
+#box2{
+    position: relative; /*relative position from itself*/
+    top: 15px;
+    left: -95px;
+    z-index: 2;
+}
+
+#box3{
+    position: absolute; /*position is related to the closest ancestor i.e from parent*/
+    top: 110px;
+    left: 35px;
+    z-index: 2;
+}
+
+#box4{
+    position: fixed; 
+    top: 130px;
+    left: 50px;
+    z-index: 2;
+}   
+
+
+
+
