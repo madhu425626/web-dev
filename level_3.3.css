@@ -1,0 +1,51 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    display: inline-block;
+}
+
+                        
+#box1{
+    background-color: red;
+      background-image: url("images/Bmw_photo.avif") ;
+    background-size: contain; /* no empty space */
+}                            /* covers some part image*/
+
+
+#box2{
+    background-color: green;
+      background-image: url("images/Bmw_photo.avif") ;
+    background-size: cover; /*image repeats to fill box*/
+}
+
+#box3{
+    background-color: blue;
+    background-image: url("images/Bmw_photo.avif") ;
+    background-size: auto; /*default image size*/ 
+}
+
+#box4{
+    background-color: aqua;
+    background-image: url("images/Bmw_photo.avif") ;
+    background-size: contain;
+}
+
+#box5{
+    background-color: green;
+      background-image: url("images/Bmw_photo.avif") ;
+    background-size: cover; /*image repeats to fill box*/
+}
+
+#box6{
+    background-color: blue;
+    background-image: url("images/Bmw_photo.avif") ;
+    background-size: auto; /*default image size*/ 
+}
+
+#box7{
+    background-color: aqua;
+    background-image: url("images/Bmw_photo.avif") ;
+    background-size: contain;
+}
+
