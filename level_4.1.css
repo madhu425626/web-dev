@@ -1,0 +1,25 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+
+@media (max-width : 600px){
+div{
+    background-color: red;
+    font-size: x-small;
+}
+}
+
+@media (min-width:800px){
+    div {
+        background-color: yellow;
+        font-size: xx-large;
+    }
+}
+
+@media (min-width:100px) and (max-width:200px){
+ div{
+    background-color: brown;
+ }
+}
