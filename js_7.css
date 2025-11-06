@@ -1,0 +1,26 @@
+#div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: solid 2px black;
+    text-align: center;
+}
+
+.myClass{
+    color: red;
+}
+
+.newClass{
+    background-color: green;
+}
+
+#newClass{
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
